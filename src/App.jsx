@@ -8,7 +8,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 function App() {
   return (
     <div>
-      <nav className='containet mx-auto flex justify-between bg-blue-300 py-10'>
+      <nav className='containet mx-auto flex justify-between bg-blue-600 py-10'>
         <Link className='p-3 px-7 rounded-md  hover:bg-blue-900 cursor-pointer' to="/">Home</Link>
         <Link className='p-3 px-7 rounded-md  hover:bg-blue-900 cursor-pointer' to="/about">About</Link>
         <Link className='p-3 px-7 rounded-md  hover:bg-blue-900 cursor-pointer' to="/contact">Contact</Link>    
